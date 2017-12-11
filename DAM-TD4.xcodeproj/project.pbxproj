@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5E44851FDF173000A0B42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E44841FDF173000A0B42F /* AppDelegate.swift */; };
+		BC5E44871FDF173000A0B42F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E44861FDF173000A0B42F /* ViewController.swift */; };
+		BC5E448A1FDF173000A0B42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E44881FDF173000A0B42F /* Main.storyboard */; };
+		BC5E448C1FDF173000A0B42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5E448B1FDF173000A0B42F /* Assets.xcassets */; };
+		BC5E448F1FDF173000A0B42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E448D1FDF173000A0B42F /* LaunchScreen.storyboard */; };
+		BC5E449A1FDF173100A0B42F /* DAM_TD4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E44991FDF173100A0B42F /* DAM_TD4Tests.swift */; };
+		BC5E44A51FDF173100A0B42F /* DAM_TD4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E44A41FDF173100A0B42F /* DAM_TD4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC5E44961FDF173100A0B42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5E44791FDF173000A0B42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5E44801FDF173000A0B42F;
+			remoteInfo = "DAM-TD4";
+		};
+		BC5E44A11FDF173100A0B42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5E44791FDF173000A0B42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5E44801FDF173000A0B42F;
+			remoteInfo = "DAM-TD4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC5E44811FDF173000A0B42F /* DAM-TD4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAM-TD4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5E44841FDF173000A0B42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC5E44861FDF173000A0B42F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC5E44891FDF173000A0B42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC5E448B1FDF173000A0B42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC5E448E1FDF173000A0B42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC5E44901FDF173000A0B42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5E44951FDF173100A0B42F /* DAM-TD4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAM-TD4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5E44991FDF173100A0B42F /* DAM_TD4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAM_TD4Tests.swift; sourceTree = "<group>"; };
+		BC5E449B1FDF173100A0B42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5E44A01FDF173100A0B42F /* DAM-TD4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAM-TD4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5E44A41FDF173100A0B42F /* DAM_TD4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAM_TD4UITests.swift; sourceTree = "<group>"; };
+		BC5E44A61FDF173100A0B42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5E447E1FDF173000A0B42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E44921FDF173100A0B42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E449D1FDF173100A0B42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5E44781FDF173000A0B42F = {
+			isa = PBXGroup;
+			children = (
+				BC5E44831FDF173000A0B42F /* DAM-TD4 */,
+				BC5E44981FDF173100A0B42F /* DAM-TD4Tests */,
+				BC5E44A31FDF173100A0B42F /* DAM-TD4UITests */,
+				BC5E44821FDF173000A0B42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5E44821FDF173000A0B42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E44811FDF173000A0B42F /* DAM-TD4.app */,
+				BC5E44951FDF173100A0B42F /* DAM-TD4Tests.xctest */,
+				BC5E44A01FDF173100A0B42F /* DAM-TD4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5E44831FDF173000A0B42F /* DAM-TD4 */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E44841FDF173000A0B42F /* AppDelegate.swift */,
+				BC5E44861FDF173000A0B42F /* ViewController.swift */,
+				BC5E44881FDF173000A0B42F /* Main.storyboard */,
+				BC5E448B1FDF173000A0B42F /* Assets.xcassets */,
+				BC5E448D1FDF173000A0B42F /* LaunchScreen.storyboard */,
+				BC5E44901FDF173000A0B42F /* Info.plist */,
+			);
+			path = "DAM-TD4";
+			sourceTree = "<group>";
+		};
+		BC5E44981FDF173100A0B42F /* DAM-TD4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E44991FDF173100A0B42F /* DAM_TD4Tests.swift */,
+				BC5E449B1FDF173100A0B42F /* Info.plist */,
+			);
+			path = "DAM-TD4Tests";
+			sourceTree = "<group>";
+		};
+		BC5E44A31FDF173100A0B42F /* DAM-TD4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E44A41FDF173100A0B42F /* DAM_TD4UITests.swift */,
+				BC5E44A61FDF173100A0B42F /* Info.plist */,
+			);
+			path = "DAM-TD4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5E44801FDF173000A0B42F /* DAM-TD4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5E44A91FDF173100A0B42F /* Build configuration list for PBXNativeTarget "DAM-TD4" */;
+			buildPhases = (
+				BC5E447D1FDF173000A0B42F /* Sources */,
+				BC5E447E1FDF173000A0B42F /* Frameworks */,
+				BC5E447F1FDF173000A0B42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAM-TD4";
+			productName = "DAM-TD4";
+			productReference = BC5E44811FDF173000A0B42F /* DAM-TD4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC5E44941FDF173100A0B42F /* DAM-TD4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5E44AC1FDF173100A0B42F /* Build configuration list for PBXNativeTarget "DAM-TD4Tests" */;
+			buildPhases = (
+				BC5E44911FDF173100A0B42F /* Sources */,
+				BC5E44921FDF173100A0B42F /* Frameworks */,
+				BC5E44931FDF173100A0B42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5E44971FDF173100A0B42F /* PBXTargetDependency */,
+			);
+			name = "DAM-TD4Tests";
+			productName = "DAM-TD4Tests";
+			productReference = BC5E44951FDF173100A0B42F /* DAM-TD4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC5E449F1FDF173100A0B42F /* DAM-TD4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5E44AF1FDF173100A0B42F /* Build configuration list for PBXNativeTarget "DAM-TD4UITests" */;
+			buildPhases = (
+				BC5E449C1FDF173100A0B42F /* Sources */,
+				BC5E449D1FDF173100A0B42F /* Frameworks */,
+				BC5E449E1FDF173100A0B42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5E44A21FDF173100A0B42F /* PBXTargetDependency */,
+			);
+			name = "DAM-TD4UITests";
+			productName = "DAM-TD4UITests";
+			productReference = BC5E44A01FDF173100A0B42F /* DAM-TD4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5E44791FDF173000A0B42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bastien Scherrer";
+				TargetAttributes = {
+					BC5E44801FDF173000A0B42F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BC5E44941FDF173100A0B42F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC5E44801FDF173000A0B42F;
+					};
+					BC5E449F1FDF173100A0B42F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC5E44801FDF173000A0B42F;
+					};
+				};
+			};
+			buildConfigurationList = BC5E447C1FDF173000A0B42F /* Build configuration list for PBXProject "DAM-TD4" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5E44781FDF173000A0B42F;
+			productRefGroup = BC5E44821FDF173000A0B42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5E44801FDF173000A0B42F /* DAM-TD4 */,
+				BC5E44941FDF173100A0B42F /* DAM-TD4Tests */,
+				BC5E449F1FDF173100A0B42F /* DAM-TD4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5E447F1FDF173000A0B42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E448F1FDF173000A0B42F /* LaunchScreen.storyboard in Resources */,
+				BC5E448C1FDF173000A0B42F /* Assets.xcassets in Resources */,
+				BC5E448A1FDF173000A0B42F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E44931FDF173100A0B42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E449E1FDF173100A0B42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5E447D1FDF173000A0B42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E44871FDF173000A0B42F /* ViewController.swift in Sources */,
+				BC5E44851FDF173000A0B42F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E44911FDF173100A0B42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E449A1FDF173100A0B42F /* DAM_TD4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E449C1FDF173100A0B42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E44A51FDF173100A0B42F /* DAM_TD4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5E44971FDF173100A0B42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5E44801FDF173000A0B42F /* DAM-TD4 */;
+			targetProxy = BC5E44961FDF173100A0B42F /* PBXContainerItemProxy */;
+		};
+		BC5E44A21FDF173100A0B42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5E44801FDF173000A0B42F /* DAM-TD4 */;
+			targetProxy = BC5E44A11FDF173100A0B42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC5E44881FDF173000A0B42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5E44891FDF173000A0B42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC5E448D1FDF173000A0B42F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5E448E1FDF173000A0B42F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC5E44A71FDF173100A0B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5E44A81FDF173100A0B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5E44AA1FDF173100A0B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DAM-TD4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scherrer.tsabs.DAM-TD4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5E44AB1FDF173100A0B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DAM-TD4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scherrer.tsabs.DAM-TD4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC5E44AD1FDF173100A0B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DAM-TD4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scherrer.tsabs.DAM-TD4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAM-TD4.app/DAM-TD4";
+			};
+			name = Debug;
+		};
+		BC5E44AE1FDF173100A0B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DAM-TD4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scherrer.tsabs.DAM-TD4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAM-TD4.app/DAM-TD4";
+			};
+			name = Release;
+		};
+		BC5E44B01FDF173100A0B42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DAM-TD4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scherrer.tsabs.DAM-TD4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DAM-TD4";
+			};
+			name = Debug;
+		};
+		BC5E44B11FDF173100A0B42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DAM-TD4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scherrer.tsabs.DAM-TD4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DAM-TD4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5E447C1FDF173000A0B42F /* Build configuration list for PBXProject "DAM-TD4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5E44A71FDF173100A0B42F /* Debug */,
+				BC5E44A81FDF173100A0B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5E44A91FDF173100A0B42F /* Build configuration list for PBXNativeTarget "DAM-TD4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5E44AA1FDF173100A0B42F /* Debug */,
+				BC5E44AB1FDF173100A0B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5E44AC1FDF173100A0B42F /* Build configuration list for PBXNativeTarget "DAM-TD4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5E44AD1FDF173100A0B42F /* Debug */,
+				BC5E44AE1FDF173100A0B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5E44AF1FDF173100A0B42F /* Build configuration list for PBXNativeTarget "DAM-TD4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5E44B01FDF173100A0B42F /* Debug */,
+				BC5E44B11FDF173100A0B42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5E44791FDF173000A0B42F /* Project object */;
+}
