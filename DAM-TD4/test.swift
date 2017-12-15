@@ -1,22 +1,18 @@
 //
-//  TableViewController.swift
+//  test.swift
 //  DAM-TD4
 //
-//  Created by Bastien Scherrer on 12/12/2017.
+//  Created by Bastien Scherrer on 15/12/2017.
 //  Copyright © 2017 Bastien Scherrer. All rights reserved.
 //
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class test: UITableViewController {
 
-    var categories: [Category]!
-    var elements: [Element]!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        print(self.categories)
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -33,31 +29,23 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return self.categories.count
-    }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
-    {
-        return 150.0;//Choose your custom row height
+        return 0
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableCell
-        cell.cName.text = self.categories[indexPath.row].name
-        for elem in elements{
-            cell.eName.text = self.elements[indexPath.row].name
-            cell.setImageUrl(urlStr: self.elements[indexPath.row].image)
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
         // Configure the cell...
+
         return cell
     }
- 
+    */
 
     /*
     // Override to support conditional editing of the table view.

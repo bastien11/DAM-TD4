@@ -11,12 +11,22 @@ import SWXMLHash
 
 struct Element {
     let name : String
-    let image: URL
+    let image: String
+    
+    init(name: String, image: String) {
+        self.name = name
+        self.image = image
+        
+    }
 }
 
 struct Category {
     let name: String
     //let els : Array<Element>
+    
+    init(name: String){
+        self.name = name
+    }
 }
 
 class TableCell: UITableViewCell {
@@ -25,11 +35,23 @@ class TableCell: UITableViewCell {
     @IBOutlet weak var eImage: UIImageView!
     @IBOutlet weak var eName: UILabel!
     
+    func setImageUrl(urlStr: String) {
+        URLSession.shared.dataTask(with: NSURL(string: urlStr)! as URL, completionHandler: { (data, response, error) -> Void in
+            if error != nil {
+                print(error ?? "No Error")
+                return
+            }
+            DispatchQueue.main.async(execute: { () -> Void in
+                let image = UIImage(data: data!)
+                self.eImage.image = image
+            })
+            
+        }).resume()
+    }
+    
 }
 
 class ViewController: UIViewController {
-    
-    var catController = TableViewController()
     
     
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
@@ -62,20 +84,20 @@ class ViewController: UIViewController {
                         for el in elem["element"].all{
                             if let elName = el.element?.attribute(by: "name")?.text, let elImage = el.element?.attribute(by: "image")?.text{
                                 "\(elName)"
-//                                print(elName)
-                                if let elImageURL = URL(string: elImage){
-                                    "\(elImageURL)"
-                                    let element = Element(name: elName, image: elImageURL)
-                                    elems.append(element)
-                                    
-                                }
+                                "\(elImage)"
+                                let element = Element(name: elName, image: elImage)
+                                elems.append(element)
                             }
                         }
                     }
                 }
-                let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "second") as! TableViewController
-                secondViewController.categories = cats
-                self.navigationController?.pushViewController(secondViewController, animated: true)
+                sleep(3)
+                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let newViewController = storyBoard.instantiateViewController(withIdentifier: "second") as! TableViewController
+                newViewController.categories = cats
+                newViewController.elements = elems
+                print(elems)
+                self.present(newViewController, animated: true, completion: nil)
             })
         }).resume()
     }
